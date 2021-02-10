@@ -3,7 +3,7 @@ const path = require('path')
 const PORT = process.env.PORT || 5000
 
 var Analytics = require('analytics-node');
-var analytics = new Analytics('FtDA4NvSZ3Fx5gvRMM7qRGe29lKD8RNI');
+var analytics = new Analytics('6EfkfQri8SKBDpCD8KGETFB6RWi3k1yB');
 
 analytics.track({
   userId:'abc',

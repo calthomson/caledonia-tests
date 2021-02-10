@@ -2,6 +2,13 @@ const express = require('express')
 const path = require('path')
 const PORT = process.env.PORT || 5000
 
+var Analytics = require('analytics-node');
+var analytics = new Analytics('f4KEUQFFKAEO8Ze3dtBsbl2FScxrBzrB');
+
+analytics.track({
+  event: "Homepage Viewed"
+});
+
 express()
   .use(express.static(path.join(__dirname, 'public')))
   .set('views', path.join(__dirname, 'views'))

@@ -11,6 +11,7 @@
     "test": "node test.js"
   },
   "dependencies": {
+    "analytics-node": "^3.5.0",
     "ejs": "^3.1.5",
     "express": "^4.15.2"
   },

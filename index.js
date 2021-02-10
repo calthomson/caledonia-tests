@@ -3,11 +3,11 @@ const path = require('path')
 const PORT = process.env.PORT || 5000
 
 var Analytics = require('analytics-node');
-var analytics = new Analytics('f4KEUQFFKAEO8Ze3dtBsbl2FScxrBzrB');
+var analytics = new Analytics('FtDA4NvSZ3Fx5gvRMM7qRGe29lKD8RNI');
 
 analytics.track({
   userId:'abc',
-  event: 'Homepage Viewed',
+  event: 'Homepage Viewed - JS',
   properties: {
     staticName: 'Cal'
   }

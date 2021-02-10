@@ -6,7 +6,11 @@ var Analytics = require('analytics-node');
 var analytics = new Analytics('f4KEUQFFKAEO8Ze3dtBsbl2FScxrBzrB');
 
 analytics.track({
-  event: "Homepage Viewed"
+  userId:'abc',
+  event: 'Homepage Viewed',
+  properties: {
+    staticName: 'Cal'
+  }
 });
 
 express()

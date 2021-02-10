@@ -5,14 +5,14 @@ const PORT = process.env.PORT || 5000
 var Analytics = require('analytics-node');
 var analytics = new Analytics('6EfkfQri8SKBDpCD8KGETFB6RWi3k1yB');
 
-analytics.track({
-  userId:'abc',
-  event: 'Homepage Visited',
-  properties: {
-    email: "iheartsf@segment.com",
-    favorite_color: "green"
-  }
-});
+// analytics.track({
+//   userId:'abc',
+//   event: 'Homepage Visited',
+//   properties: {
+//     email: "iheartsf@segment.com",
+//     favorite_color: "green"
+//   }
+// });
 
 analytics.track({
   userId:'abc',

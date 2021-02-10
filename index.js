@@ -7,9 +7,18 @@ var analytics = new Analytics('6EfkfQri8SKBDpCD8KGETFB6RWi3k1yB');
 
 analytics.track({
   userId:'abc',
-  event: 'Homepage Viewed - JS',
+  event: 'Homepage Visited',
   properties: {
-    staticName: 'Cal'
+    email: "iheartsf@segment.com",
+    favorite_color: "green"
+  }
+});
+
+analytics.track({
+  userId:'abc',
+  event: 'Site Visited',
+  properties: {
+    name: "secret"
   }
 });
 
